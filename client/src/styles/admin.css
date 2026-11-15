@@ -1,0 +1,20 @@
+/* Admin panel (/admin) */
+.admin,.admin-login{min-height:100vh;padding:30px;max-width:1200px;margin:auto}
+.admin-login{display:flex;align-items:center;justify-content:center}
+.admin-login form{background:var(--panel);border:1px solid var(--line);padding:44px;text-align:center;display:flex;flex-direction:column;gap:14px;width:340px}
+.admin-login img{width:70px;margin:auto;border-radius:50%}
+.admin input,.admin select,.admin-login input{padding:11px 12px;border:1px solid var(--line);background:var(--bg2);color:var(--ink);font:inherit;font-size:.9rem}
+.admin-bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.admin-bar a,.admin-bar button{margin-left:16px;background:none;border:0;color:var(--maroon);cursor:pointer;font:inherit}
+.admin-add{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);padding:20px;margin-bottom:34px}
+.admin-add h3{width:100%;font-size:1.2rem}.msg{font-size:.8rem;color:var(--brass)}
+.admin-sec{margin-bottom:34px}.admin-sec h3{font-size:1.3rem;margin-bottom:14px}.admin-sec small{color:var(--soft);font-family:'Jost'}
+.admin-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
+.admin-item{background:var(--panel);border:1px solid var(--line);padding:8px;display:flex;flex-direction:column;gap:8px}
+.admin-item img,.admin-item video{width:100%;aspect-ratio:4/5;object-fit:cover}
+.row{display:flex;gap:6px}.mini{flex:1;text-align:center;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;padding:8px;border:1px solid var(--ink);background:none;cursor:pointer}
+.mini:hover{background:var(--silver);color:var(--bg)}.danger{border-color:var(--maroon);color:var(--maroon)}.danger:hover{background:var(--maroon);color:var(--ink)}
+.hint{width:100%;font-size:.75rem;color:var(--soft)}
+.admin-login .note{font-size:.82rem;color:var(--soft);line-height:1.55}.admin-login .err{color:var(--maroon);min-height:18px}
+.admin-login .alt{background:none;border:0;color:var(--maroon);cursor:pointer;font:inherit;font-size:.82rem}.admin-login a{font-size:.8rem;color:var(--soft)}
+.admin-login h2{font-size:1.6rem}

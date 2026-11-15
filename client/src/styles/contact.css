@@ -1,0 +1,13 @@
+/* Contact page (/contact) */
+.contact-page{padding:150px 0 90px;min-height:80vh}
+.contact-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:50px;align-items:start}@media(max-width:900px){.contact-grid{grid-template-columns:1fr}}
+.info-row{display:flex;align-items:center;gap:14px;padding:20px 0;border-top:1px solid var(--line);transition:.25s}
+.info:last-child .info-row,.info>.info-row:last-child{border-bottom:1px solid var(--line)}
+a.info-row:hover{padding-left:8px;color:var(--maroon)}
+.info-row small{width:90px;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass)}
+.info-row b{font-family:'Fraunces',serif;font-weight:400;font-size:1.15rem;flex:1}.info-row i{font-style:normal;color:var(--brass)}
+.enquiry{background:var(--panel);border:1px solid var(--line);padding:34px;display:flex;flex-direction:column;gap:12px;box-shadow:0 30px 60px -35px rgba(0,0,0,.65)}
+.enquiry h3{font-size:1.5rem;margin-bottom:6px}
+.enquiry input,.enquiry textarea{padding:12px;border:1px solid var(--line);background:var(--bg2);color:var(--ink);font:inherit;font-size:.92rem}
+.enquiry input::placeholder,.enquiry textarea::placeholder{color:var(--soft)}
+.enquiry .btn{text-align:center}.btn-line{border:1px solid var(--silver);color:var(--ink)}.btn-line:hover{background:var(--silver);color:var(--bg)}
